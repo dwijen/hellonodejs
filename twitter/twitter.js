@@ -18,4 +18,4 @@ app.post('/send', express.bodyParser(), function(req, res) {
 app.get('/tweets', function(req,res) {
     res.send(tweets)
 })
-console.log("Server started")
+console.log("Server started at port 8000")
